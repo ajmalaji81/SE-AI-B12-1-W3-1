@@ -21,6 +21,39 @@ The platform implements a **Hybrid RAG** architecture combining semantic dense v
 * **Observability & Telemetry:** Full tracing of tokens, prompt templates, and execution latency via **LangSmith**.
 
 ---
+## 🏛️ System Architecture
+
+```text
+                    ┌─────────────────────────┐
+                    │       User Query        │
+                    └────────────┬────────────┘
+                                 │
+                    ┌────────────▼────────────┐
+                    │     Input Guardrail     │ ──► [BLOCKED: Off-Topic / Jailbreak]
+                    └────────────┬────────────┘
+                                 │ (ALLOWED)
+                 ┌───────────────┴───────────────┐
+                 ▼                               ▼
+     [ Vector Search: FAISS ]        [ Graph Engine: Neo4j / NetworkX ]
+     Dense Semantic Retrieval        Structured Triples & Relationships
+     • Descriptive paragraphs        • (:Scheme)-[:PROVIDES_BENEFIT]->(:Benefit)
+     • Eligibility & application text • (:Scheme)-[:TARGETS]->(:Beneficiary)
+                 │                               │
+                 └───────────────┬───────────────┘
+                                 ▼
+                    ┌─────────────────────────┐
+                    │   LLM Synthesis Engine  │
+                    │      (gpt-4o-mini)      │
+                    └────────────┬────────────┘
+                                 │
+                    ┌────────────▼────────────┐
+                    │    Output Guardrail     │ ──► Enforces Graph Grounding
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                     Structured Bulleted Answer
+                     (DeepEval Verified: 1.00)
+```
 
 ## 📊 Graph Ontology
 
