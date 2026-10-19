@@ -1,0 +1,3977 @@
+[
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTU2Ng==",
+      "scheme_title": "Training to Farmers",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Training To Farmers",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Coimbatore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dindigul",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Erode",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dharmapuri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Krishnagiri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Namakkal",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Perambalur",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Virudhunagar",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Theni",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Villupuram",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Vellore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Salem",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Pudukkottai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Madurai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Sivagangai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Trichy",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Tirunelveli",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Thoothukudi",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Training To Farmers",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Coimbatore",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Dindigul",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Erode",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Dharmapuri",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Krishnagiri",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Namakkal",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Perambalur",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Virudhunagar",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Theni",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Villupuram",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Vellore",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Salem",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Pudukkottai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Madurai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Sivagangai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Trichy",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Tirunelveli",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Training To Farmers",
+        "target": "Thoothukudi",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=ODAz",
+      "scheme_title": "Production of Foundation and Certified Seeds",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Production Of Foundation And Certified Seeds",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation And Certified Seeds",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTI4MA==",
+      "scheme_title": "Distribution of Nuclear Poly Hedrosis Virus",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQ1MQ==",
+      "scheme_title": "Distribution of Rhizobium Packets - Oilseeds",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Rhizobium Packets - Oilseeds",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Rhizobium Packets - Oilseeds",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium Packets - Oilseeds",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=NDQw",
+      "scheme_title": "Livelihood activities for asset less persons-2012",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Livelihood Activities For Asset Less Persons-2012",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Livelihood Activities For Asset Less Persons-2012",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Livelihood Activities For Asset Less Persons-2012",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Livelihood Activities For Asset Less Persons-2012",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTY4",
+      "scheme_title": "Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Infrastructure Subsidy For Privately Developed Industrial Estates",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Sipcot",
+        "type": "Department",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Infrastructure Subsidy For Privately Developed Industrial Estates",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Infrastructure Subsidy For Privately Developed Industrial Estates",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Infrastructure Subsidy For Privately Developed Industrial Estates",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Infrastructure Subsidy For Privately Developed Industrial Estates",
+        "target": "Sipcot",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQ1Mg==",
+      "scheme_title": "Production of Foundation Seeds",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Production Of Foundation Seeds",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Production Of Foundation Seeds",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Foundation Seeds",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQ5MQ==",
+      "scheme_title": "Distribution of Gypsum",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Gypsum",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Gypsum",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Gypsum",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQzNw==",
+      "scheme_title": "Distribution of manually operated Plant Protection Equipment",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Manually Operated Plant Protection Equipment",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Manually Operated Plant Protection Equipment",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "State",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Manually Operated Plant Protection Equipment",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTMxNA==",
+      "scheme_title": "Pipes carrying water from source to field - Pulses ISPOM",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "State",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Pipes Carrying Water From Source To Field - Pulses Ispom",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=Mjg=",
+      "scheme_title": "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Not Applicable",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Technology Development Fund For Evolving Cleaner And / Or Energy Efficient Or It Enabled Technologies For Micro, Small & Medium Manufacturing Sector",
+        "target": "Not Applicable",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=OTE2",
+      "scheme_title": "Distribution of Rhizobium",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Rhizobium",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Rhizobium",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Rhizobium",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQzOA==",
+      "scheme_title": "Distribution of Soil  Health card",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Soil Health Card",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Distribution Of Soil Health Card",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Soil Health Card",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Soil Health Card",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=Nw==",
+      "scheme_title": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Incentives",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "All New Micro And Small Enterprises",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Industrial Estates Developed By Tansidco Or Govt.",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "251 Backward Blocks As Listed In Annexure I",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "Incentives",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "All New Micro And Small Enterprises",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "Industrial Estates Developed By Tansidco Or Govt.",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Rebate/ Reimbursement Of Stamp Duty & Registration Charges For Micro And Small Enterprises",
+        "target": "251 Backward Blocks As Listed In Annexure I",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTA1OQ==",
+      "scheme_title": "Training of Farmers on Pulses Production Technologies",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Training Of Farmers On Pulses Production Technologies",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Training Of Farmers On Pulses Production Technologies",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "Farmers",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Training Of Farmers On Pulses Production Technologies",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=NQ==",
+      "scheme_title": "Subsidy on the assessed Value Added Tax (VAT)",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy On The Assessed Value Added Tax (Vat)",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Eligibility Certificate",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Subsidy On The Assessed Value Added Tax (Vat)",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Assessed Value Added Tax (Vat)",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Assessed Value Added Tax (Vat)",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Assessed Value Added Tax (Vat)",
+        "target": "Eligibility Certificate",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=OTIw",
+      "scheme_title": "Distribution of Certified seeds - Oil Seeds",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Certified Seeds - Oil Seeds",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Certified Seeds - Oil Seeds",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "State",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds - Oil Seeds",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQxMg==",
+      "scheme_title": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Incentives",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Village Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "District Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "Incentives",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "Village Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Integrated Scheme For Oilseeds, Oilpalm And Maize (Isopom)",
+        "target": "District Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQwMQ==",
+      "scheme_title": "Quality Paddy seed Distribution",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Quality Paddy Seed Distribution",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Incentives",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Village Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "District Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "2011-08-22 00:00:00",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "Incentives",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "Village Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "District Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Quality Paddy Seed Distribution",
+        "target": "2011-08-22 00:00:00",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTY3",
+      "scheme_title": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Incentives",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "To Apply To Sipcot",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "All New / Expansion Schemes Of Sipcot Industrial Estates",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "target": "Incentives",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "target": "To Apply To Sipcot",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Reservation For Micro , Small And Medium Enterprises In Sipcot Industrial Estates",
+        "target": "All New / Expansion Schemes Of Sipcot Industrial Estates",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTE0Mw==",
+      "scheme_title": "Organizing Block  Demonstration through  Department and also  through TNAU",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Organizing Block Demonstration",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Deputy Agricultural Officer",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Coimbatore",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Dindigul",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Erode",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Dharmapuri",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Krishnagiri",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Namakkal",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Perambalur",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Virudhunagar",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Theni",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Villupuram",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Vellore",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Salem",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Pudukkottai",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Madurai",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Sivagangai",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Trichy",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Tirunelveli",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Thoothukudi",
+        "type": "Department",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Organizing Block Demonstration",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Assistant Agricultural Officer",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Agricultural Officer",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Deputy Agricultural Officer",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Assistant Director Of Agriculture",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Joint Director Of Agriculture",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Coimbatore",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Dindigul",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Erode",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Dharmapuri",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Krishnagiri",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Namakkal",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Perambalur",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Virudhunagar",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Theni",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Villupuram",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Vellore",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Salem",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Pudukkottai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Madurai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Sivagangai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Trichy",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Tirunelveli",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration",
+        "target": "Thoothukudi",
+        "type": "TARGETS",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTU=",
+      "scheme_title": "Generator subsidy",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Generator Subsidy",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Income",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Age From",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Age To",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Community",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "How To Avail",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Validity Of The Scheme",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Introduced On",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Description",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Scheme Type",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Uploaded File",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Generator Subsidy",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Income",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Age From",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Age To",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Community",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "How To Avail",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Validity Of The Scheme",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Introduced On",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Description",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Scheme Type",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Generator Subsidy",
+        "target": "Uploaded File",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQyMQ==",
+      "scheme_title": "Production of Certified Seeds",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Production Of Certified Seeds",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "State",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Production Of Certified Seeds",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTUwMg==",
+      "scheme_title": "Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Organizing Block Demonstration On Polythene Mulch Technology In Groundnut",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQ=",
+      "scheme_title": "Special capital subsidy for thrust sector enterprises",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Income",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Age From",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Age To",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Community",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "How To Avail",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Validity Of The Scheme",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Introduced On",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Description",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Scheme Type",
+        "type": "Scheme",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Manufacturers",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Income",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Age From",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Age To",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Community",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "How To Avail",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Validity Of The Scheme",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Introduced On",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Description",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Special Capital Subsidy For Thrust Sector Enterprises",
+        "target": "Scheme Type",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=ODIy",
+      "scheme_title": "Distribution of Minikits  at free of cost",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Minikits At Free Of Cost",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "The Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Coimbatore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dindigul",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Erode",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dharmapuri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Krishnagiri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Namakkal",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Perambalur",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Virudhunagar",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Theni",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Villupuram",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Vellore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Salem",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Pudukkottai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Madurai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Sivagangai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Trichy",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Tirunelveli",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Thoothukudi",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Minikits At Free Of Cost",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "The Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "The Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Coimbatore",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Dindigul",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Erode",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Dharmapuri",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Krishnagiri",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Namakkal",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Perambalur",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Virudhunagar",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Theni",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Villupuram",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Vellore",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Salem",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Pudukkottai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Madurai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Sivagangai",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Trichy",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Tirunelveli",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Minikits At Free Of Cost",
+        "target": "Thoothukudi",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=Mg==",
+      "scheme_title": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Incentives",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Sipcot",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "target": "Incentives",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Rebate On Stamp Duty And Registration Charges For Privately Developed Industrial Estates",
+        "target": "Sipcot",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MzM=",
+      "scheme_title": "Unemployed Youth Employment Generation Programme (UYEGP)",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Embedded In Uyegp Scheme Itself",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Unemployed Youth Employment Generation Programme (Uyegp)",
+        "target": "Embedded In Uyegp Scheme Itself",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTM5OQ==",
+      "scheme_title": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture",
+        "type": "Department",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "State",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Assistant Agricultural Officer",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Agricultural Officer / Deputy Agricultural Officer",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Assistant Director Of Agriculture",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Seed Multiplication Scheme Of Paddy, Millets, Pulses, Oilseeds And Cotton",
+        "target": "Joint Director Of Agriculture",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MjE=",
+      "scheme_title": "Price Preference for Micro and Small Enterprises in Government purchases",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Price Preference For Micro And Small Enterprises In Government Purchases",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Tamil Nadu Transparency In Tenders Act 1998",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Price Preference For Micro And Small Enterprises In Government Purchases",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Price Preference For Micro And Small Enterprises In Government Purchases",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Price Preference For Micro And Small Enterprises In Government Purchases",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Price Preference For Micro And Small Enterprises In Government Purchases",
+        "target": "State",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "State",
+        "target": "Tamil Nadu Transparency In Tenders Act 1998",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTA0NA==",
+      "scheme_title": "Farmers Training",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Farmers Training",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Grants",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Farmers Training",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Grants",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Farmers Training",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTE3",
+      "scheme_title": "Farm Production System and micro enterprises - Sponsored By State Govt",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Chairman / District Collector",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Project Officer /Joint Director Of Agriculture",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Chief Executive Officer",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Chennai-32",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "State",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Chairman / District Collector",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Project Officer /Joint Director Of Agriculture",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      },
+      {
+        "source": "Farm Production System And Micro Enterprises - Sponsored By State Govt",
+        "target": "Chief Executive Officer",
+        "type": "REQUIRES_ELIGIBILITY",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MjQ=",
+      "scheme_title": "Waiver of Earnest Money Deposit for participation in Tenders",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Waiver Of Earnest Money Deposit For Participation In Tenders",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Waiver Of Earnest Money Deposit For Participation In Tenders",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Waiver Of Earnest Money Deposit For Participation In Tenders",
+        "target": "Farmers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Waiver Of Earnest Money Deposit For Participation In Tenders",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MTQyMw==",
+      "scheme_title": "Distribution of Certified  Seeds of maize",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Distribution Of Certified Seeds Of Maize",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Farmers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Agricultural Officer At The Village Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Assistant Director Of Agriculture At The Block Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Joint Director Of Agriculture At The District Level",
+        "type": "Documentrequired",
+        "properties": {}
+      },
+      {
+        "id": "Coimbatore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dindigul",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Erode",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Dharmapuri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Krishnagiri",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Namakkal",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Perambalur",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Virudhunagar",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Theni",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Villupuram",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Vellore",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Salem",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Pudukkottai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Madurai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Sivagangai",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Trichy",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Tirunelveli",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      },
+      {
+        "id": "Thoothukudi",
+        "type": "Eligibilitycriteria",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Agriculture - Farmers Welfare Department",
+        "target": "Distribution Of Certified Seeds Of Maize",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "State",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Farmers",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Assistant Agricultural Officer At The Village Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Assistant Director Of Agriculture At The Block Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Joint Director Of Agriculture At The District Level",
+        "type": "REQUIRES_DOCUMENT",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Coimbatore",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Dindigul",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Erode",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Dharmapuri",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Krishnagiri",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Namakkal",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Perambalur",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Virudhunagar",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Theni",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Villupuram",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Vellore",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Salem",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Pudukkottai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Madurai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Sivagangai",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Trichy",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Tirunelveli",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Distribution Of Certified Seeds Of Maize",
+        "target": "Thoothukudi",
+        "type": "TARGETS",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "source": {
+      "source": "https://www.tn.gov.in/scheme_details.php?id=MjU=",
+      "scheme_title": "Subsidy on the cost of Patent Registration in India or abroad",
+      "department": "Agriculture / TN Welfare"
+    },
+    "nodes": [
+      {
+        "id": "Agriculture - Farmers Welfare Department",
+        "type": "Department",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy On The Cost Of Patent Registration In India Or Abroad",
+        "type": "Scheme",
+        "properties": {}
+      },
+      {
+        "id": "Manufacturers",
+        "type": "Beneficiary",
+        "properties": {}
+      },
+      {
+        "id": "Subsidy",
+        "type": "Benefit",
+        "properties": {}
+      },
+      {
+        "id": "State",
+        "type": "Department",
+        "properties": {}
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Subsidy On The Cost Of Patent Registration In India Or Abroad",
+        "target": "Agriculture - Farmers Welfare Department",
+        "type": "OFFERED_BY",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Cost Of Patent Registration In India Or Abroad",
+        "target": "Manufacturers",
+        "type": "TARGETS",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Cost Of Patent Registration In India Or Abroad",
+        "target": "Subsidy",
+        "type": "PROVIDES_BENEFIT",
+        "properties": {}
+      },
+      {
+        "source": "Subsidy On The Cost Of Patent Registration In India Or Abroad",
+        "target": "State",
+        "type": "OFFERED_BY",
+        "properties": {}
+      }
+    ]
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "Department",
+      "id": "Agriculture - Farmers Welfare Department"
+    },
+    {
+      "type": "Scheme",
+      "id": "Training To Farmers"
+    },
+    {
+      "type": "Beneficiary",
+      "id": "Farmers"
+    },
+    {
+      "type": "Benefit",
+      "id": "Grants"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "Assistant Agricultural Officer At The Village Level"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "Assistant Director Of Agriculture At The Block Level"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "Joint Director Of Agriculture At The District Level"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Coimbatore"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Dindigul"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Erode"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Dharmapuri"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Krishnagiri"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Namakkal"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Perambalur"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Virudhunagar"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Theni"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Villupuram"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Vellore"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Salem"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Pudukkottai"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Madurai"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Sivagangai"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Trichy"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Tirunelveli"
+    },
+    {
+      "type": "Eligibilitycriteria",
+      "id": "Thoothukudi"
+    },
+    {
+      "type": "Scheme",
+      "id": "Production Of Foundation And Certified Seeds"
+    },
+    {
+      "type": "Benefit",
+      "id": "Subsidy"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "The Assistant Director Of Agriculture At The Block Level"
+    },
+    {
+      "type": "Documentrequired",
+      "id": "The Joint Director Of Agriculture At The District Level"
+    },
+    {
+      "type": "Scheme",
+      "id": "Distribution Of Nuclear Poly Hedrosis Virus"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "OFFERED_BY",
+      "source": "Agriculture - Farmers Welfare Department",
+      "target": "Training To Farmers",
+      "key": 0
+    },
+    {
+      "relationship": "OFFERED_BY",
+      "source": "Agriculture - Farmers Welfare Department",
+      "target": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "key": 0
+    },
+    {
+      "relationship": "TARGETS",
+      "source": "Training To Farmers",
+      "target": "Farmers",
+      "key": 0
+    },
+    {
+      "relationship": "PROVIDES_BENEFIT",
+      "source": "Training To Farmers",
+      "target": "Grants",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Training To Farmers",
+      "target": "Assistant Agricultural Officer At The Village Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Training To Farmers",
+      "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Training To Farmers",
+      "target": "Assistant Director Of Agriculture At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Training To Farmers",
+      "target": "Joint Director Of Agriculture At The District Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Coimbatore",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Dindigul",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Erode",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Dharmapuri",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Krishnagiri",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Namakkal",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Perambalur",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Virudhunagar",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Theni",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Villupuram",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Vellore",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Salem",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Pudukkottai",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Madurai",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Sivagangai",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Trichy",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Tirunelveli",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_ELIGIBILITY",
+      "source": "Training To Farmers",
+      "target": "Thoothukudi",
+      "key": 0
+    },
+    {
+      "relationship": "OFFERED_BY",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "Agriculture - Farmers Welfare Department",
+      "key": 0
+    },
+    {
+      "relationship": "TARGETS",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "Farmers",
+      "key": 0
+    },
+    {
+      "relationship": "PROVIDES_BENEFIT",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "Subsidy",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "Assistant Agricultural Officer At The Village Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "The Assistant Director Of Agriculture At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Production Of Foundation And Certified Seeds",
+      "target": "The Joint Director Of Agriculture At The District Level",
+      "key": 0
+    },
+    {
+      "relationship": "TARGETS",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "Farmers",
+      "key": 0
+    },
+    {
+      "relationship": "PROVIDES_BENEFIT",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "Subsidy",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "Assistant Agricultural Officer At The Village Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "Agricultural Officer / Deputy Agricultural Officer At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "The Assistant Director Of Agriculture At The Block Level",
+      "key": 0
+    },
+    {
+      "relationship": "REQUIRES_DOCUMENT",
+      "source": "Distribution Of Nuclear Poly Hedrosis Virus",
+      "target": "The Joint Director Of Agriculture At The District Level",
+      "key": 0
+    }
+  ]
+}

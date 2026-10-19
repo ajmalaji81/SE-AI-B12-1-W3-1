@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 520px;
+                 background-color: #0E1117;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#FFAA00", "font": {"color": "#FAFAFA"}, "id": "Agriculture - Farmers Welfare Department", "label": "Agriculture - Farmers Welfare Department", "shape": "dot", "size": 12, "title": "Type: Department"}, {"color": "#FF4B4B", "font": {"color": "#FAFAFA"}, "id": "Training To Farmers", "label": "Training To Farmers", "shape": "dot", "size": 18, "title": "Type: Scheme"}, {"color": "#00D4B2", "font": {"color": "#FAFAFA"}, "id": "Farmers", "label": "Farmers", "shape": "dot", "size": 12, "title": "Type: Beneficiary"}, {"color": "#1E90FF", "font": {"color": "#FAFAFA"}, "id": "Grants", "label": "Grants", "shape": "dot", "size": 12, "title": "Type: Benefit"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Assistant Agricultural Officer At The Village Level", "label": "Assistant Agricultural Officer At The Village Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Agricultural Officer / Deputy Agricultural Officer At The Block Level", "label": "Agricultural Officer / Deputy Agricultural Officer At The Block Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Assistant Director Of Agriculture At The Block Level", "label": "Assistant Director Of Agriculture At The Block Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Joint Director Of Agriculture At The District Level", "label": "Joint Director Of Agriculture At The District Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Coimbatore", "label": "Coimbatore", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Dindigul", "label": "Dindigul", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Erode", "label": "Erode", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Dharmapuri", "label": "Dharmapuri", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Krishnagiri", "label": "Krishnagiri", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Namakkal", "label": "Namakkal", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Perambalur", "label": "Perambalur", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Virudhunagar", "label": "Virudhunagar", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Theni", "label": "Theni", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Villupuram", "label": "Villupuram", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Vellore", "label": "Vellore", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Salem", "label": "Salem", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Pudukkottai", "label": "Pudukkottai", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Madurai", "label": "Madurai", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Sivagangai", "label": "Sivagangai", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Trichy", "label": "Trichy", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Tirunelveli", "label": "Tirunelveli", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "Thoothukudi", "label": "Thoothukudi", "shape": "dot", "size": 12, "title": "Type: Eligibilitycriteria"}, {"color": "#FF4B4B", "font": {"color": "#FAFAFA"}, "id": "Production Of Foundation And Certified Seeds", "label": "Production Of Foundation And Certified Seeds", "shape": "dot", "size": 18, "title": "Type: Scheme"}, {"color": "#1E90FF", "font": {"color": "#FAFAFA"}, "id": "Subsidy", "label": "Subsidy", "shape": "dot", "size": 12, "title": "Type: Benefit"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "The Assistant Director Of Agriculture At The Block Level", "label": "The Assistant Director Of Agriculture At The Block Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#CCCCCC", "font": {"color": "#FAFAFA"}, "id": "The Joint Director Of Agriculture At The District Level", "label": "The Joint Director Of Agriculture At The District Level", "shape": "dot", "size": 12, "title": "Type: Documentrequired"}, {"color": "#FF4B4B", "font": {"color": "#FAFAFA"}, "id": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "Distribution Of Nuclear Poly Hedrosis Virus", "shape": "dot", "size": 18, "title": "Type: Scheme"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#555555", "from": "Agriculture - Farmers Welfare Department", "label": "OFFERED_BY", "title": "OFFERED_BY", "to": "Training To Farmers"}, {"arrows": "to", "color": "#555555", "from": "Agriculture - Farmers Welfare Department", "label": "OFFERED_BY", "title": "OFFERED_BY", "to": "Distribution Of Nuclear Poly Hedrosis Virus"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "TARGETS", "title": "TARGETS", "to": "Farmers"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "PROVIDES_BENEFIT", "title": "PROVIDES_BENEFIT", "to": "Grants"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Assistant Agricultural Officer At The Village Level"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Agricultural Officer / Deputy Agricultural Officer At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Assistant Director Of Agriculture At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Joint Director Of Agriculture At The District Level"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Coimbatore"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Dindigul"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Erode"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Dharmapuri"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Krishnagiri"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Namakkal"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Perambalur"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Virudhunagar"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Theni"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Villupuram"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Vellore"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Salem"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Pudukkottai"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Madurai"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Sivagangai"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Trichy"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Tirunelveli"}, {"arrows": "to", "color": "#555555", "from": "Training To Farmers", "label": "REQUIRES_ELIGIBILITY", "title": "REQUIRES_ELIGIBILITY", "to": "Thoothukudi"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "OFFERED_BY", "title": "OFFERED_BY", "to": "Agriculture - Farmers Welfare Department"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "TARGETS", "title": "TARGETS", "to": "Farmers"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "PROVIDES_BENEFIT", "title": "PROVIDES_BENEFIT", "to": "Subsidy"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Assistant Agricultural Officer At The Village Level"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Agricultural Officer / Deputy Agricultural Officer At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "The Assistant Director Of Agriculture At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Production Of Foundation And Certified Seeds", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "The Joint Director Of Agriculture At The District Level"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "TARGETS", "title": "TARGETS", "to": "Farmers"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "PROVIDES_BENEFIT", "title": "PROVIDES_BENEFIT", "to": "Subsidy"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Assistant Agricultural Officer At The Village Level"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "Agricultural Officer / Deputy Agricultural Officer At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "The Assistant Director Of Agriculture At The Block Level"}, {"arrows": "to", "color": "#555555", "from": "Distribution Of Nuclear Poly Hedrosis Virus", "label": "REQUIRES_DOCUMENT", "title": "REQUIRES_DOCUMENT", "to": "The Joint Director Of Agriculture At The District Level"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"forceAtlas2Based": {"gravitationalConstant": -50, "centralGravity": 0.01, "springLength": 100, "springConstant": 0.08}, "maxVelocity": 50, "solver": "forceAtlas2Based", "timestep": 0.35, "stabilization": {"iterations": 150}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
