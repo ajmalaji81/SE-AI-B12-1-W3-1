@@ -22,36 +22,6 @@ The platform implements a **Hybrid RAG** architecture combining semantic dense v
 
 ---
 
-## 🏗️ System Architecture
-
-User Query
-                             │
-                 ┌───────────▼───────────┐
-                 │    Input Guardrail    │ (Blocks off-topic/injections)
-                 └───────────┬───────────┘
-                             │
-               ┌─────────────┴─────────────┐
-               ▼                           ▼
-    [ Dense Vector Search ]     [ Structured Traversal ]
-     FAISS Vector Index          Neo4j AuraDB / NetworkX
-     (Detailed Context)          (Entity Triples & Edges)
-               │                           │
-               └─────────────┬─────────────┘
-                             ▼
-                 ┌───────────────────────┐
-                 │ LLM Synthesis Engine  │
-                 │     (gpt-4o-mini)     │
-                 └───────────┬───────────┘
-                             │
-                 ┌───────────▼───────────┐
-                 │   Output Guardrail    │ (Validates against facts)
-                 └───────────┬───────────┘
-                             │
-                             ▼
-                  Itemized Scheme Analysis
-
-                  ---
-
 ## 📊 Graph Ontology
 
 ### Node Labels
